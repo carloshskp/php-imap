@@ -1,0 +1,22 @@
+{
+    "name": "carloshb/php-imap",
+    "description": "Imap mail connect and list",
+    "version": "0.0.1",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Bernardes",
+            "email": "contato@carloshb.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Carloshb\\Imap\\": ["src/Carloshb/Imap"]
+        }
+    }
+}
